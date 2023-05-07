@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   src: url(../assets/Roboto-Regular.ttf);
 }
 body {
@@ -18,7 +18,9 @@ body {
 a {
   text-decoration: none;
 }
-img:hover, .full-name:hover, .user-name:hover {
+img:hover,
+.full-name:hover,
+.user-name:hover {
   cursor: pointer;
 }
 
@@ -29,7 +31,7 @@ ul {
 /* Main Containers */
 .main-flex-container {
   max-width: 1350px;
-  margin: auto;
+  margin-left: 2.5rem; /*margin adjustment was made here*/
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -39,7 +41,7 @@ ul {
   height: 100%;
   position: sticky;
   top: 0;
-  background:#fff; 
+  background: #fff;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -47,8 +49,8 @@ ul {
   border-right: 1px solid rgb(230, 236, 240);
 }
 .center-flex-container {
- flex: 3 0 45%;
- background:#fff;
+  flex: 3 0 45%;
+  background: #fff;
 }
 .right-flex-container {
   flex: 2 0 31%;
@@ -56,7 +58,7 @@ ul {
   width: 100%;
   position: sticky;
   top: 0;
-  background:#fff;
+  background: #fff;
   border-left: 1px solid rgb(230, 236, 240);
   display: flex;
   flex-flow: column nowrap;
@@ -64,7 +66,7 @@ ul {
 }
 
 /* Left Navigation */
-.logo i{
+.logo i {
   color: #1da1f2;
   font-size: 2rem;
   padding: 1rem;
@@ -80,7 +82,9 @@ ul {
   padding: 10px 15px;
 }
 
-.current-page a { color: rgba(29,161,242,1.00);}
+.current-page a {
+  color: rgba(29, 161, 242, 1);
+}
 
 .nav-links a:hover {
   background: rgba(29, 161, 242, 0.1);
@@ -175,10 +179,10 @@ ul {
 }
 .home i {
   font-size: 1.4rem;
-  color: rgba(29,161,242,1.00);
+  color: rgba(29, 161, 242, 1);
   background: #fff;
   padding: 0.5rem;
-  border-radius: 50%
+  border-radius: 50%;
 }
 .home i:hover {
   background: rgba(29, 161, 242, 0.1);
@@ -204,7 +208,7 @@ ul {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  align-self: center; 
+  align-self: center;
 }
 
 .post-tweet input {
@@ -254,7 +258,6 @@ ul {
 .form-group-2 .btn:hover {
   background: #1da1f2;
   cursor: pointer;
-  
 }
 
 .btn:focus {
@@ -293,7 +296,7 @@ ul {
   border-radius: 20px;
 }
 .user-content {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   padding-right: 1rem;
   color: rgb(48, 52, 56);
   font-weight: 400;
@@ -332,7 +335,6 @@ ul {
   padding-top: 0.6rem;
   margin-left: 50%;
   color: rgb(101, 119, 134);
-
 }
 .content-icons {
   display: flex;
@@ -346,14 +348,13 @@ ul {
   color: rgb(101, 119, 134);
   font-size: 1rem;
   cursor: pointer;
-  
 }
 .content-icons i:last-child {
   font-size: 14px;
 }
 
 .content-icons .blue:hover {
-  color: rgba(29, 161,242,1.00);
+  color: rgba(29, 161, 242, 1);
 }
 .content-icons .green:hover {
   color: rgb(23 191 99);
@@ -362,7 +363,7 @@ ul {
   color: rgb(224, 36, 94);
 }
 .content-icons .blue:hover {
-  color: rgba(29, 161,242,1.00);
+  color: rgba(29, 161, 242, 1);
 }
 
 /* Right Navbar */
@@ -400,7 +401,7 @@ ul {
   cursor: pointer;
 }
 .nav-list a {
-    color: rgb(27, 149, 224);
+  color: rgb(27, 149, 224);
 }
 .nav-list:last-child {
   font-size: 1rem;
@@ -409,7 +410,6 @@ ul {
 .trend-list {
   display: flex;
   flex-flow: column nowrap;
-  
 }
 
 .trends {
@@ -437,10 +437,10 @@ ul {
 }
 
 .header i {
-  color: rgba(29,161,242,1.00);
+  color: rgba(29, 161, 242, 1);
   background: rgb(245, 248, 250);
   padding: 0.5rem;
-  border-radius: 50%
+  border-radius: 50%;
 }
 .header i:hover {
   background: rgba(29, 161, 242, 0.1);
@@ -462,7 +462,7 @@ ul {
 
 .nav-list .trend-icon {
   font-size: 13px;
-  color:  rgb(101, 119, 134);
+  color: rgb(101, 119, 134);
 }
 
 .right-footer {
@@ -482,14 +482,14 @@ ul {
   text-decoration: underline;
 }
 .footer-links i {
-    padding: 0.4rem;
-    border-radius: 50%;
+  padding: 0.4rem;
+  border-radius: 50%;
 }
 .footer-links i:hover {
-    background: rgb(245, 248, 250);
-    padding: 0.4rem;
-    border-radius: 50%;
-    cursor: pointer;
+  background: rgb(245, 248, 250);
+  padding: 0.4rem;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .footer-copyright {
@@ -543,7 +543,7 @@ ul {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  align-self: center; 
+  align-self: center;
 }
 
 .follow-user {
@@ -567,27 +567,28 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-.bio-container{
-  font-family: "Roboto";
+.bio-container {
+  font-family: 'Roboto';
 }
-.bio-container a{
-  color:rgb(29,161,242);
+.bio-container a {
+  color: rgb(29, 161, 242);
 }
-.bio-container a:hover, .user-content a:hover {
+.bio-container a:hover,
+.user-content a:hover {
   text-decoration: underline;
 }
 
-.follow-btn a{
+.follow-btn a {
   font-weight: bold;
-  color: rgb(29,161,242);
+  color: rgb(29, 161, 242);
   background: #fff;
   padding: 0.3rem 1.1rem;
-  border: 1px solid rgba(29,161,242,1.00);
+  border: 1px solid rgba(29, 161, 242, 1);
   border-radius: 25px;
 }
 
 .follow-btn a:hover {
-  background:  rgba(29, 161, 242, 0.1);;
+  background: rgba(29, 161, 242, 0.1);
 }
 
 .follow-footer {
@@ -596,7 +597,7 @@ ul {
   border-bottom: 1px solid rgb(230, 236, 240);
 }
 .follow-footer a {
-  color: rgb(29,161,242);
+  color: rgb(29, 161, 242);
   font-size: 15px;
   font-weight: 400;
 }
@@ -618,4 +619,3 @@ ul {
 .pagnation a:hover {
   background: #198ed6;
 }
-
